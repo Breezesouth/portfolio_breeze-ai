@@ -33,6 +33,14 @@ src/
 │   └── skills.ts       # 技能数据
 ├── App.tsx             # 主应用组件
 └── main.tsx            # 应用入口
+config/
+├── js/                 # JavaScript/TypeScript 配置
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── vite.config.ts
+└── json/               # JSON 配置
+    ├── tsconfig.json
+    └── tsconfig.node.json
 docs/                   # 项目文档
 ├── AGENTS.md          # 开发指令
 ├── PRD.md             # 产品需求文档

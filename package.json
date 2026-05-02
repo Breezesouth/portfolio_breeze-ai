@@ -5,10 +5,10 @@
   "description": "个人作品集网站，基于 React、TypeScript、Vite 和 Tailwind CSS 构建。",
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "tsc -p config/json/tsconfig.json && vite --config config/js/vite.config.ts build",
     "deploy": "gh-pages -d dist",
-    "dev": "vite",
-    "preview": "vite preview"
+    "dev": "vite --config config/js/vite.config.ts",
+    "preview": "vite preview --config config/js/vite.config.ts"
   },
   "repository": {
     "type": "git",
