@@ -12,14 +12,20 @@ const Projects = () => (
           key={project.name}
           className="group overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/50 transition hover:-translate-y-1 hover:border-violet-500"
         >
-          <div className="h-48 bg-slate-800/70"></div>
-          <div className="space-y-4 p-6">
-            <div className="flex items-center justify-between gap-3">
-              <h3 className="text-xl font-semibold text-white">{project.name}</h3>
-              <span className="rounded-full bg-violet-500/15 px-3 py-1 text-xs text-violet-200">
+          <div className="relative overflow-hidden">
+            <img
+              src={project.screenshot}
+              alt={`${project.name} 项目截图`}
+              className="h-56 w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/90 to-transparent px-5 py-4 text-white">
+              <span className="rounded-full bg-violet-500/20 px-3 py-1 text-xs font-medium text-violet-200">
                 {project.stack}
               </span>
             </div>
+          </div>
+          <div className="space-y-4 p-6">
+            <h3 className="text-xl font-semibold text-white">{project.name}</h3>
             <p className="text-slate-300">{project.description}</p>
             <a
               href={project.link}
