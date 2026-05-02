@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Breezesouth/AI-.git"
+    "url": "https://github.com/Breezesouth/portfolio_breeze-ai.git"
   },
-  "homepage": "https://breezesouth.github.io/AI-/",
+  "homepage": "https://breezesouth.github.io/portfolio_breeze-ai/",
   "author": "Breezesouth",
   "license": "MIT",
   "dependencies": {
