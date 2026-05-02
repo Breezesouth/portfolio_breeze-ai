@@ -1,14 +1,22 @@
 {
   "name": "developerportfolio",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "个人作品集网站，基于 React、TypeScript、Vite 和 Tailwind CSS 构建。",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Breezesouth/AI-.git"
+  },
+  "homepage": "https://breezesouth.github.io/AI-/",
+  "author": "Breezesouth",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
