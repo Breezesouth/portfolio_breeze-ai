@@ -33,6 +33,10 @@ src/
 │   └── skills.ts       # 技能数据
 ├── App.tsx             # 主应用组件
 └── main.tsx            # 应用入口
+docs/                   # 项目文档
+├── AGENTS.md          # 开发指令
+├── PRD.md             # 产品需求文档
+└── TECH_DESING.md     # 技术设计文档
 ```
 
 ## 🛠️ 本地开发
